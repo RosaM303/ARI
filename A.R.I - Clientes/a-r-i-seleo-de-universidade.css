@@ -1,0 +1,124 @@
+.ol-usurio {
+  position: relative;
+}
+.frame-parent,
+.searchbar,
+.universidade-wrapper {
+  border-radius: var(--rounder-round-circle);
+  display: flex;
+}
+.searchbar {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-noto-sans);
+  font-size: var(--font-size-base);
+  background-color: var(--gray-textbox);
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--spacing-spacing-12) var(--spacing-spacing-20);
+  box-sizing: border-box;
+  color: var(--black-minimalist);
+  max-width: 500px;
+}
+.frame-parent,
+.universidade-wrapper {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--spacing-spacing-8) var(--spacing-spacing-12);
+}
+.universidade-wrapper {
+  background-color: var(--orange);
+  justify-content: flex-start;
+}
+.frame-parent {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--background);
+}
+.essas-so-as {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--black-minimalist);
+}
+.titlemessage7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-5xl);
+}
+.frame-child {
+  width: 100px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro-100);
+  height: 100px;
+}
+.ellipse-parent {
+  flex-direction: column;
+}
+.ellipse-parent,
+.selecionar-wrapper,
+.storeuniversity {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.selecionar-wrapper {
+  text-decoration: none;
+  border-radius: var(--rounder-round-circle);
+  background-color: var(--orange);
+  flex-direction: row;
+  padding: var(--spacing-spacing-8) var(--spacing-spacing-12);
+  color: var(--background);
+}
+.storeuniversity {
+  flex-direction: column;
+  gap: var(--spacing-spacing-12);
+}
+.ari-seleo-de-universidad,
+.form5,
+.loginsection2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form5 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--spacing-spacing-24);
+  font-size: var(--font-size-base);
+}
+.ari-seleo-de-universidad,
+.loginsection2 {
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.loginsection2 {
+  border-radius: var(--rounder-round-32);
+  background-color: var(--background);
+  padding: var(--spacing-spacing-32) var(--spacing-spacing-24);
+  gap: var(--gap-13xl);
+  max-width: 800px;
+  min-height: 720px;
+}
+.ari-seleo-de-universidad {
+  position: relative;
+  background-color: var(--orange);
+  height: 1024px;
+  padding: 0 var(--spacing-spacing-20);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-noto-sans);
+}

@@ -1,0 +1,109 @@
+.no-se-preocupe1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--black-minimalist);
+}
+.titlemessage3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.um-email-foi {
+  margin: 0;
+}
+.um-email-foi-container {
+  position: relative;
+}
+.input3 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: var(--gray-textbox);
+  align-self: stretch;
+  border-radius: var(--rounder-round-circle);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--spacing-spacing-24);
+  box-sizing: border-box;
+  color: var(--black-minimalist);
+  min-height: 64px;
+}
+.button3,
+.form3,
+.input3,
+.inputs3 {
+  display: flex;
+  flex-direction: column;
+}
+.inputs3 {
+  width: 100%;
+  background-color: var(--background);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 560px;
+}
+.button3,
+.form3 {
+  align-items: center;
+}
+.button3 {
+  text-decoration: none;
+  width: 100%;
+  border-radius: var(--rounder-round-circle);
+  background-color: var(--orange);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--spacing-spacing-24);
+  box-sizing: border-box;
+  max-width: 540px;
+  min-height: 64px;
+  font-size: var(--font-size-5xl);
+  color: var(--background);
+  font-family: var(--font-noto-sans);
+}
+.form3 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--black-minimalist);
+  font-family: var(--font-inter);
+}
+.ari-cdigo-do-email,
+.passwordrecoverysection1 {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.passwordrecoverysection1 {
+  border-radius: var(--rounder-round-32);
+  background-color: var(--background);
+  height: 640px;
+  flex-shrink: 0;
+  padding: var(--spacing-spacing-24) var(--padding-3xs);
+  gap: var(--spacing-spacing-32);
+  max-width: 800px;
+  min-height: 640px;
+}
+.ari-cdigo-do-email {
+  position: relative;
+  background-color: var(--orange);
+  height: 1024px;
+  padding: var(--padding-173xl) var(--padding-301xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-noto-sans);
+}
