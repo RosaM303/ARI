@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "start": "node ari-backend/src/index.js",
+    "build": "parcel build ./*.html --dist-dir ./build"
   },
   "author": "",
   "license": "ISC",
