@@ -1,13 +1,24 @@
+// auth.js
+
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const { body, validationResult } = require('express-validator');
 const User = require('../models/User');
 
 const router = express.Router();
 
 // Registro
-router.post('/register', async (req, res) => {
+router.post('/register', [
+  body('email').isEmail(),
+  body('password').isLength({ min: 6 })
+], async (req, res) => {
   const { name, email, password, role } = req.body;
+
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    return res.status(400).json({ errors: errors.array() });
+  }
 
   try {
     let user = await User.findOne({ email });
